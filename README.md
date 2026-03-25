@@ -1,2 +1,137 @@
 # My_linux-commands
 All the linux commnds
+
+Day-1 
+
+root@linuxvm:/var/log# history
+    1  ls
+    2  cd /
+    3  ls
+    4  cd /var/
+    5  ls
+    6  cd log/
+    7  ls
+    8  pwd
+    9  ls
+   10  cat auth.log
+   11  more auth.log 
+   12  tail 50 auth.log 
+   13  tail -f 50 auth.log
+   14  cat auth.log | grep error
+   15  cat auth.log | grep vikas4cloud
+   16  history
+
+
+day-2 
+
+root@day2:~# history
+    1  ssh-keygen
+    2  cd /root/.ssh/
+    3  ls
+    4  cat id_ed25519.pub
+    5  pwd
+    6  cd ~
+    7  ls
+    8  mkdir folder
+    9  ls
+   10  touch amitfile
+   11  ls
+   12  cat amitfile 
+   13  cp amitfile vivekfile
+   14  ls
+   15  mv vivekfile ravifile
+   16  ls
+   17  vi amitfile
+   18  cat amitfile 
+   19  hostname
+   20  hostanem -i
+   21  hostname -i
+   22  curl ifconfig.me
+   23  uname
+   24  uname -a
+   25  ls
+   26  rm ravifile
+   27  echo "hello batch-43 students"
+   28  history
+   29  man hostname -i
+   30  w
+   31  clear
+   32  w
+   33  who
+   34  whoami
+   35  w
+   36  uptime
+   37  top
+   38  qqq
+   39  free
+   40  free -m
+   41  free -g
+   42  free -h
+   43  df
+   44  df -m
+   45  df -h
+   46  history
+
+
+day-3 
+
+
+  ls
+    2  pwd
+    3  cd ..
+    4  ls
+    5  uname -a
+    6  htop
+    7  uptime
+    8  wget
+    9  last
+   10  ps
+   11  ps -aef
+   12  ps -aef | grep oom
+   13  ps -aef | grep -i ps
+   14  ps -aef | grep node
+   15  ps -aef | grep sql
+   16  ps -aef | grep python
+   17  df -h
+   18  du -h
+   19  ls
+   20  ping
+   21  ping www.google.com
+   22  ping 34.61.253.198
+   23  mkdir myfiles; touch myfiles/{a.txt,b.txt,c.txt}
+   24  ls
+   25  mkdir myfiles ; touch myfiles/{a.txt,b.txt,c.txt}
+   26  cd myfiles
+   27  ls
+   28  cd ..
+   29  tar myfiles
+   30  tar -cvf allfiles.tar myfiles
+   31  ls
+   32  ls -l
+   33  vi ni.sh
+   34  ./ni.sh
+   35  chmod +x ni.sh
+   36  ./ni.sh
+   37  cat ni.sh
+   38  ./ni.sh
+   39  ls
+   40  ni.sh
+   41  vi n.sh
+   42  cat n.sh
+   43  ./n.sh
+   44  chmod +x vi n.sh
+   45  chmod +x  n.sh
+   46  ./n.sh
+   47  addgroup devops
+   48  getent group
+   49  adduser prabhat
+   50  addgroup dev
+   51  getent group
+   52  usermod -a -G dev prabhat
+   53  getent group
+   54  ls
+   55  cd etc
+   56  ls
+   57  cd passwd
+   58  cat passwd
+   59  cat group
